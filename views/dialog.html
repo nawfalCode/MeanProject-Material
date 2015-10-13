@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <meta charset="UTF-8">
+    <title>Dialog</title>
+    <link rel="stylesheet" href="/angular-material/angular-material.min.css"/>
+    <link rel="stylesheet" href="../static/css/styles2.css"/>
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=RobotoDraft:400,500,700,400italic"/>
+
+</head>
+<body ng-app="myApp" ng-controller="myController" layout="column" layout-align="top center">
+<md-toolbar>
+    <div class="md-toolbar-tools">
+        <span class="md-flex">Dialog</span>
+    </div>
+</md-toolbar>
+
+<md-content layout="column">
+    <div class="app-content">
+        <form method="POST">
+            <md-input-container>
+                <label>Username</label>
+                <input ng-model="username">
+            </md-input-container>
+
+            <md-input-container>
+                <label>Password</label>
+                <input ng-model="password" type="password">
+            </md-input-container>
+
+            <md-input-container>
+                <label>Email</label>
+                <input ng-model="email" type="email">
+            </md-input-container>
+            <md-button class="md-raised md-primary" ng-click="sendForm()">Submit</md-button>
+
+        </form>
+    </div>
+
+
+</md-content>
+<script src="/angular/angular.min.js"></script>
+<script src="/angular-aria/angular-aria.min.js"></script>
+<script src="/angular-animate/angular-animate.min.js"></script>
+<script src="/hammerjs/hammer.min.js"></script>
+<script src="/angular-material/angular-material.min.js"></script>
+<script src="/static/js/dialogjs.js"></script>
+
+</body>
+</html>

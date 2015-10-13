@@ -1,0 +1,26 @@
+{
+  "name": "NodeProject",
+  "version": "0.0.0",
+  "authors": [
+    "Nawfal Mahdi <nawfalrezo@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "angular-material": "~0.11.2",
+    "angular-animate": "~1.4.7",
+    "angular-aria": "~1.4.7",
+    "hammerjs": "hammer.js#~2.0.4"
+  }
+}
